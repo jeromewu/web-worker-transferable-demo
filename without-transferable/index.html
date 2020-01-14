@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Without Transferable</title>
+  <script>
+    const SIZE = 1024 * 1024 * 1024;
+    const worker = new Worker('../worker.js');
+    const data = new Uint8Array(SIZE);
+    worker.postMessage({ data, ts: Date.now() });
+  </script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "web-worker-transferable-demo",
+  "version": "1.0.0",
+  "description": "Web Worker Transferable Demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -p 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeromewu/web-worker-transferable-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeromewu/web-worker-transferable-demo/issues"
+  },
+  "homepage": "https://github.com/jeromewu/web-worker-transferable-demo#readme",
+  "dependencies": {
+    "http-server": "^0.12.1"
+  }
+}
